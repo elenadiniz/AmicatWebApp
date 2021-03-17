@@ -1,0 +1,105 @@
+body{
+    background: #651fff;
+}
+
+@media screen and (max-device-width: 1024px) {
+    }
+
+.logo {
+    position: absolute;
+    transform: translateX(470%);
+    top: 80px;
+    left: 70px;
+} 
+.img{
+    background-image: url(./images/cover3.png);
+    background-position: center;
+    position: absolute;
+    width: 899px;
+    height: 750px;
+    left: -40px;
+    top: -40px;
+    -webkit-border-bottom-right-radius: 300px;
+    -moz-border-radius-bottomright: 500px;
+    border-bottom-right-radius: 500px;
+    max-width: 100%;
+}
+   
+   .text{
+    position: absolute;
+    transform: translateX(80%);
+    width: 600px;
+    height: 20px;
+    left: 180px;
+    top: 240px;
+    color: #D4C2FF;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300px;
+    font-size: 30px;
+    line-height: 46px;
+    text-align: right;
+    text-indent: 40px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+   }
+
+   #sidebar{
+    left: 400px;
+    width: 100px;
+    height: 100px;
+    top: 250px;
+    padding: 6px;
+   }
+
+   #adot{
+    position: absolute;
+    width: 200px;
+    height: 84px;
+    left: 1005px;
+    top: 450px;
+    background: #08D304;
+    border-radius: 8px;
+    border-color: transparent;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: bold;
+    color: #32264D;
+   }
+
+   #doa{
+    position: absolute;
+    width: 200px;
+    height: 84px;
+    left: 800px;
+    top: 450px;
+    background: #b388ff;
+    border-radius: 8px;
+    border-color: transparent;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: bold;
+    color: #32264D;
+   }
+
+   #adot:hover{
+    opacity:1;
+    transition: all 0.5s;
+    cursor: pointer;
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+   }
+   #doa:hover{
+    opacity:1;
+    transition: all 0.5s;
+    cursor: pointer;
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+   }
+
+   #foot{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 1050px;
+    top: 650px;
+   }
