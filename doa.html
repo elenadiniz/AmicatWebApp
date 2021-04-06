@@ -1,79 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Amicat</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Footer-with-button-logo.css">
     <link rel="stylesheet" text="text/css" href="doa.css">
 </head>
-   
 <body>
-       <header class="home">
-           <img id="img_logo" src="./images/logo_foot.png" width="200px" height="150px">
-   
-           <h1>Unindo gatinhos e gateiros </h1>
-       </header>
-    <div class="container">
-        <table class="bordered striped centered">
-            <thead>
-                <tr>
-                    <th>Código</th>
-                    <th>Cliente</th>
-                    <th>Resumo</th>
-                    <th>Contrato</th>
-                    <th>Data de Abertura</th>
-                    <th>Anexo(S/N)</th>
-                    <th></th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>001</td>
-                    <td>Renato C</td>
-                    <td>Kernel Panic</td>
-                    <td>Fora Garantia</td>
-                    <td>20/02/2021</td>
-                    <td>GO22HR444MD9</td>
-                    <td><button>Visualizar</button></td>
-                </tr>
-                <tr>
-                    <td>002</td>
-                    <td>João F</td>
-                    <td>Bateria</td>
-                    <td>Garantia</td>
-                    <td>30/01/2021</td>
-                    <td>MK44NO5GJN</td>
-                    <td><button>Visualizar</button></td>
-                </tr>
-                <tr>
-                    <td>003</td>
-                    <td>David F</td>
-                    <td>Troca SSD</td>
-                    <td>Fora Garantia</td>
-                    <td>10/02/2021</td>
-                    <td>F4GG8NJ77L</td>
-                    <td><button>Visualizar</button></td>
-                </tr>
-            </tbody>
-        </table>       
-    </div>
-    <div class="container-fluid">
-        <div class="container2">
-                <div class="barra">
+    <header class="home">
+        <img id="img_logo" src="./images/logo_foot.png" width="200px" height="150px">
+    </header>
+ <div class="container">
+     <h2>
+         <br>Bem-vindo ao AmicatApp!</br> 
+         <br>Ficamos muito felizes em saber que você quer fazer parte do nosso time de ONG's parceiras.
+         Preencha o formulário abaixo e assim que possível retornaremos o contato!</br>
+         <br>Até mais</br>
+     </h2>
+    <form name="meuForm" method="post" id="formulario">
+        <div class="box">
+            <h1>Formulário</h1>
+    
+            <label>
+                <span>Nome da ONG</span>
+                 <input type="text" class="input_text" name="nome" id="name"/>
+    
+            </label>
+            <label>
+                <span>Representante legal</span>
+                 <input type="text" class="input_text" name="nome" id="name"/>
+    
+            </label>
+            <label>
+                <span>CNPJ</span>
+                 <input type="text" class="input_text" name="nome" id="name"/>
+    
+            </label>
+            <label>
+                 <span>Email</span>
+                <input type="text" class="input_text" name="email" id="email"/>
+             </label>
+    
+            <label>
+                 <span>Telefone</span>
+                <input type="text" class="input_text" name="assunto" id="subject"/>
+            </label>
+            <label>
+                <span>Localidade</span>
+                 <input type="text" class="input_text" name="nome" id="name"/>
+    
+            </label>
+            <label>
+                 <span>Conte-nos um pouco sobre a ONG</span>
+                <textarea class="message" name="feedback" id="feedback"></textarea>
+                <input type="button" class="button" value="Enviar" />
+            </label>
+        </div>
+    </form>
+ </div>
+ <div class="content"></div>
+    <footer id="myFooter">
+        <div class="cont">
+            <div class="row">
+                <div class="col-sm-3">
+                    <img src="./images/logo_foot.png">
+                </div>
+                <div class="col-sm-2">
+                    <h5>Inicio</h5>
                     <ul>
-                        <li>
-                              <a>Painel</a>
-                        </li>
-                        <li>
-                              <a>Clientes</a>
-                        </li>
-                        <li>
-                              <a>Contratos</a>
-                        </li>
-                 </ul>
+                        <li><a href="/doa.html">Ser Parceiro</a></li>
+                        <li><a href="https://apps.apple.com/br/app/apple-developer/id640199958">Download do App</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h5>Sobre nós</h5>
+                    <ul>
+                        <li><a href="https://programadorviking.com.br/">Informações sobre o projeto</a></li>
+                        <li><a href="https://programadorviking.com.br/">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <div class="social-networks">
+                        <a href="https://www.linkedin.com/in/elena-diniz-82487b180/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/DinizElena/" class="facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/elena.diniz/" class="instagram"><i class="fa fa-instagram"></i></a>
+                    </div>
+                    <a href="https://programadorviking.com.br/">
+                        <button type="button" class="btn btn-default">Contato</button>
+                    </a>
+                </div>
             </div>
         </div>
-    </div>
+        <div class="footer-copyright">
+            <p>© 2021 Copyright - AmicatApp</p>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
