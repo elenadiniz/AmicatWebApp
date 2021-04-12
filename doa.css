@@ -252,3 +252,8 @@ body{
    flex: 0 0 auto;
    -webkit-flex: 0 0 auto;
 }
+@media screen and (max-width: 767px) {
+    div.box .message {
+        width: 250px;
+    }
+}
